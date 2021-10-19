@@ -31,3 +31,7 @@ build/
 
 ### VS Code ###
 .vscode/
+
+
+### Credentials / Configs ###
+twitter4j.properties

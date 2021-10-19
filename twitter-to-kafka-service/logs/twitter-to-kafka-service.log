@@ -1,0 +1,11 @@
+2021-10-19 15:32:53 [main] INFO  d.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication using Java 17 on MBX-MacBook-Pro.fritz.box with PID 33664 (/Users/mibexx/Projects/java/microservices/microservices-demo/twitter-to-kafka-service/target/classes started by mibexx in /Users/mibexx/Projects/java/microservices/microservices-demo)
+2021-10-19 15:32:53 [main] INFO  d.m.d.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to default profiles: default
+2021-10-19 15:32:54 [main] INFO  d.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 0.993 seconds (JVM running for 1.526)
+2021-10-19 15:32:54 [main] INFO  d.m.d.t.t.k.s.TwitterToKafkaServiceApplication - App starts...
+2021-10-19 15:32:54 [main] INFO  d.m.d.t.t.k.s.TwitterToKafkaServiceApplication - [Java, Microservices, Spring, Kafka, Elasticsearch]
+2021-10-19 15:35:56 [main] INFO  d.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication using Java 17 on MBX-MacBook-Pro.fritz.box with PID 33802 (/Users/mibexx/Projects/java/microservices/microservices-demo/twitter-to-kafka-service/target/classes started by mibexx in /Users/mibexx/Projects/java/microservices/microservices-demo)
+2021-10-19 15:35:56 [main] INFO  d.m.d.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to default profiles: default
+2021-10-19 15:35:57 [main] INFO  d.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 0.905 seconds (JVM running for 1.42)
+2021-10-19 15:35:57 [main] INFO  d.m.d.t.t.k.s.TwitterToKafkaServiceApplication - App starts...
+2021-10-19 15:35:57 [main] INFO  d.m.d.t.t.k.s.TwitterToKafkaServiceApplication - [Java, Microservices, Spring, Kafka, Elasticsearch]
+2021-10-19 15:35:57 [main] INFO  d.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Twitter to Kafka service is ready now...
