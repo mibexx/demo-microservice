@@ -21,7 +21,7 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.ThreadLocalRandom;
 
 @Component
-@ConditionalOnProperty(name = "twitter-to-kafka-service.enable-mock-tweets", havingValue = "true", matchIfMissing = true)
+@ConditionalOnProperty(name = "twitter-to-kafka-service.enable-mock-tweets", havingValue = "true")
 public class MockKafkaStreamRunner implements StreamRunner {
     private static final Logger LOG = LoggerFactory.getLogger(MockKafkaStreamRunner.class);
 
@@ -34,12 +34,12 @@ public class MockKafkaStreamRunner implements StreamRunner {
             "ipsum",
             "dolor",
             "sit",
-            "amet,",
+            "amet",
             "consectetur",
             "adipiscing",
             "elit",
             "Maecenas",
-            "fermentum,",
+            "fermentum",
             "turpis",
             "in",
             "luctus",
@@ -57,7 +57,7 @@ public class MockKafkaStreamRunner implements StreamRunner {
             "\"created_at\":\"{0}\"," +
             "\"id\":\"{1}\"," +
             "\"text\":\"{2}\"," +
-            "\"user\":\"{\"id\":\"{3}\"}\"," +
+            "\"user\":{\"id\":\"{3}\"}" +
             "}";
 
     private static final String TWITTER_STATUS_DATE_FORMAT = "EEE MMM dd HH:mm:ss zzz yyyy";

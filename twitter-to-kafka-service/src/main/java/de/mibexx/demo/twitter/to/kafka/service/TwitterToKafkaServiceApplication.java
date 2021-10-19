@@ -1,28 +1,31 @@
 package de.mibexx.demo.twitter.to.kafka.service;
 
 import de.mibexx.demo.twitter.to.kafka.service.config.TwitterToKafkaServiceConfigData;
+import de.mibexx.demo.twitter.to.kafka.service.runner.StreamRunner;
 import de.mibexx.demo.twitter.to.kafka.service.runner.impl.TwitterKafkaStreamRunner;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.ComponentScan;
 
 import java.util.Arrays;
 
 @SpringBootApplication
+@ComponentScan(basePackages = "de.mibexx.demo")
 public class TwitterToKafkaServiceApplication implements CommandLineRunner {
     private static final Logger LOG = LoggerFactory.getLogger(TwitterToKafkaServiceApplication.class);
 
     private final TwitterToKafkaServiceConfigData twitterToKafkaServiceConfigData;
-    private final TwitterKafkaStreamRunner twitterKafkaStreamRunner;
+    private final StreamRunner streamRunner;
 
     public TwitterToKafkaServiceApplication(
             TwitterToKafkaServiceConfigData twitterToKafkaServiceConfigData,
-            TwitterKafkaStreamRunner twitterKafkaStreamRunner
+            StreamRunner streamRunner
     ) {
         this.twitterToKafkaServiceConfigData = twitterToKafkaServiceConfigData;
-        this.twitterKafkaStreamRunner = twitterKafkaStreamRunner;
+        this.streamRunner = streamRunner;
     }
 
     public static void main(String[] args) {
@@ -35,6 +38,6 @@ public class TwitterToKafkaServiceApplication implements CommandLineRunner {
         LOG.info(Arrays.toString(twitterToKafkaServiceConfigData.getTwitterKeywords().toArray(new String[] {})));
         LOG.info(twitterToKafkaServiceConfigData.getWelcomeMessage());
 
-        twitterKafkaStreamRunner.start();
+        streamRunner.start();
     }
 }
