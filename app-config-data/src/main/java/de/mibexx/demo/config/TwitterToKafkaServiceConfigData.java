@@ -1,4 +1,4 @@
-package de.mibexx.demo.twitter.to.kafka.service.config;
+package de.mibexx.demo.config;
 
 import lombok.Data;
 import org.springframework.boot.context.properties.ConfigurationProperties;

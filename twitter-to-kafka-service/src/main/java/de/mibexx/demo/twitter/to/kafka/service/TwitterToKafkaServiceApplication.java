@@ -1,8 +1,7 @@
 package de.mibexx.demo.twitter.to.kafka.service;
 
-import de.mibexx.demo.twitter.to.kafka.service.config.TwitterToKafkaServiceConfigData;
+import de.mibexx.demo.config.TwitterToKafkaServiceConfigData;
 import de.mibexx.demo.twitter.to.kafka.service.runner.StreamRunner;
-import de.mibexx.demo.twitter.to.kafka.service.runner.impl.TwitterKafkaStreamRunner;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.boot.CommandLineRunner;

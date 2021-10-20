@@ -1,6 +1,6 @@
 package de.mibexx.demo.twitter.to.kafka.service.runner.impl;
 
-import de.mibexx.demo.twitter.to.kafka.service.config.TwitterToKafkaServiceConfigData;
+import de.mibexx.demo.config.TwitterToKafkaServiceConfigData;
 import de.mibexx.demo.twitter.to.kafka.service.exception.TwitterToKafkaServiceException;
 import de.mibexx.demo.twitter.to.kafka.service.listener.TwitterKafkaStatusListener;
 import de.mibexx.demo.twitter.to.kafka.service.runner.StreamRunner;
