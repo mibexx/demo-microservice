@@ -7,11 +7,13 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.kafka.core.KafkaTemplate;
 import org.springframework.kafka.support.SendResult;
+import org.springframework.stereotype.Component;
 import org.springframework.util.concurrent.ListenableFuture;
 import org.springframework.util.concurrent.ListenableFutureCallback;
 
 import javax.annotation.PreDestroy;
 
+@Component
 public class TwitterKafkaProducer implements KafkaProducer<Long, TwitterAvroModel> {
     private static final Logger LOG = LoggerFactory.getLogger(TwitterKafkaProducer.class);
 
