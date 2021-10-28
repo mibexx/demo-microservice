@@ -32,7 +32,7 @@
 		<java.version>11</java.version>
         <spring-boot.version>2.5.5</spring-boot.version>
         <spring-cloud.version>3.0.5</spring-cloud.version>
-        <spring-cloud-dependencies.version>Hoxton.SR12</spring-cloud-dependencies.version>
+        <spring-cloud-dependencies.version>2020.0.4</spring-cloud-dependencies.version>
         <maven-compiler-plugin.version>3.8.1</maven-compiler-plugin.version>
         <twitter4j-stream.version>4.0.7</twitter4j-stream.version>
         <lombok.version>1.18.20</lombok.version>
@@ -143,6 +143,11 @@
             <dependency>
                 <groupId>org.springframework.cloud</groupId>
                 <artifactId>spring-cloud-config-server</artifactId>
+                <version>${spring-cloud.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-starter-config</artifactId>
                 <version>${spring-cloud.version}</version>
             </dependency>
 
