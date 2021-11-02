@@ -11,6 +11,10 @@ spring:
           uri: file://Users/mibexx/Projects/java/microservices/microservices-demo/config-server-repository
           clone-on-start: true
     fail-fast: true
+  security:
+    user:
+      name: spring_cloud_user
+      password: spr1Ng.Cl0ud
 
 logging:
   level:
