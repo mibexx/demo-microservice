@@ -8,8 +8,11 @@ spring:
     config:
       server:
         git:
-          uri: file://Users/mibexx/Projects/java/microservices/microservices-demo/config-server-repository
+          uri: https://github.com/mibexx/demo-microservice-config.git
+          username: mibexx
+          password: '{cipher}62e86f797a8ee373ce1dbfe60526ec44054adbf7dc956fca042786435046783a8c6ebfbfc5b5de51c4d157cb5988b1a08ab1fd9bef02db7102e7efe2a0323888'
           clone-on-start: true
+          default-label: main
     fail-fast: true
   security:
     user:
