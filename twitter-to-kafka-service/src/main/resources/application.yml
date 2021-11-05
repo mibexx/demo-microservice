@@ -1,6 +1,6 @@
 spring:
   config:
-    import: configserver:http://localhost:8888
+    import: 'configserver:'
   application:
     name: twitter-to-kafka-service
   profiles:
@@ -10,3 +10,7 @@ spring:
       name: twitter-to-kafka-server,config-client
       username: spring_cloud_user
       password: '{cipher}6792632bb8b96b76a944977f961132b654b299b999e5b67b60edeb5c7ed543a6'
+
+
+log:
+  app-name: twitter-to-kafka-service

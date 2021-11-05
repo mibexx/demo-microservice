@@ -31,7 +31,7 @@
 	<properties>
 		<java.version>11</java.version>
         <spring-boot.version>2.5.5</spring-boot.version>
-        <spring-cloud.version>3.0.5</spring-cloud.version>
+        <spring-cloud.version>3.0.4</spring-cloud.version>
         <spring-cloud-dependencies.version>2020.0.4</spring-cloud-dependencies.version>
         <maven-compiler-plugin.version>3.8.1</maven-compiler-plugin.version>
         <twitter4j-stream.version>4.0.7</twitter4j-stream.version>
