@@ -12,6 +12,8 @@
         <module>kafka/kafka-producer</module>
         <module>common-config</module>
         <module>config-server</module>
+        <module>kafka-consumer</module>
+        <module>kafka-to-elastic-service</module>
     </modules>
 
     <parent>
