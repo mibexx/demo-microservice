@@ -9,7 +9,6 @@ spring:
       server:
         git:
           uri: https://github.com/mibexx/demo-microservice-config.git
-          username: mibexx
           clone-on-start: true
           default-label: main
     fail-fast: true
