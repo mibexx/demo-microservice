@@ -1,4 +1,4 @@
-package de.mibexx.de.kafka.consumer.config;
+package de.mibexx.demo.kafka.consumer.config;
 
 import de.mibexx.demo.config.KafkaConfigData;
 import de.mibexx.demo.config.KafkaConsumerConfigData;
